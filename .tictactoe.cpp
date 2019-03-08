@@ -43,7 +43,7 @@ bool winGame(char board[3][3], char player){
 				flag=true;
 	if(!flag){
 		cout<<"Draw\n";
-		return false;
+		return true;
 	}
 	return false;
 }
